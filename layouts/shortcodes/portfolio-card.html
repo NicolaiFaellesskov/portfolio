@@ -1,10 +1,10 @@
-<a href="{{ .Get "url" }}" style="text-decoration: none; display: block;">
+<a href="{{ .Get "url" | relURL }}" style="text-decoration: none; display: block;">
   <div style="
     position: relative;
     height: 300px;
     border-radius: 16px;
     overflow: hidden;
-    background-image: url('{{ .Get "image" }}');
+    background-image: url('{{ .Get "image" | relURL }}');
     background-size: cover;
     background-position: center;
     margin-bottom: 1rem;
