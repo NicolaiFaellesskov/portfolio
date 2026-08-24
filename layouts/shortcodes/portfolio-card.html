@@ -1,0 +1,38 @@
+<a href="{{ .Get "url" }}" style="text-decoration: none; display: block;">
+  <div style="
+    position: relative;
+    height: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    background-image: url('{{ .Get "image" }}');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1rem;
+  ">
+
+    <div style="
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.55);
+    "></div>
+
+    <div style="
+      position: absolute;
+      inset: 0;
+      padding: 2rem;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    ">
+      <h2 style="color: white; margin: 0;">
+        {{ .Get "title" }}
+      </h2>
+
+      <p style="color: white; margin-top: 0.5rem;">
+        {{ .Get "description" }}
+      </p>
+    </div>
+
+  </div>
+</a>

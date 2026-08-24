@@ -1,0 +1,129 @@
+colorScheme = "blowfish"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+enableA11y = true
+enableSearch = true
+enableCodeCopy = false
+enableStructuredBreadcrumbs = false
+replyByEmail = false
+disableImageOptimization = false
+disableImageOptimizationMD = false
+disableTextInHeader = false
+hotlinkFeatureImage = false
+fingerprintAlgorithm = "sha512"
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v11.next.forgejo.org"
+seo = { }
+firebase = { }
+fathomAnalytics = { }
+umamiAnalytics = { }
+selineAnalytics = { }
+buymeacoffee = { }
+verification = { }
+rssnext = { }
+advertisement = { }
+defaultBackgroundImage = "localhost:52990"
+disableImageZoom = false
+imagePosition = "center"
+smartTOC = true
+
+[languageRedirect]
+enabled = false
+storageKey = "blowfish_preferred_language"
+browserRedirectHomeOnly = true
+storedLanguageRedirect = true
+
+[header]
+layout = "basic"
+
+[footer]
+showMenu = true
+showCopyright = true
+showThemeAttribution = true
+showAppearanceSwitcher = true
+showScrollToTop = true
+
+[homepage]
+layout = "profile"
+showRecent = false
+showRecentItems = 5
+showMoreLink = true
+showMoreLinkDest = "/posts/"
+cardView = false
+cardViewScreenWidth = false
+layoutBackgroundBlur = true
+disableHeroImageFilter = true
+homepageImage = "tylers-head-in-5-years-v0-8j3euqv0i2a01.webp"
+
+[article]
+showDate = true
+showViews = true
+showLikes = true
+showDateOnlyInArticle = false
+showDateUpdated = false
+showAuthor = false
+showHero = true
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = true
+showDraftLabel = true
+showEdit = false
+editAppendPath = true
+seriesOpened = false
+showHeadingAnchors = true
+showPagination = true
+invertPagination = false
+showReadingTime = true
+showReadingProgress = false
+showTableOfContents = false
+showTaxonomies = false
+showCategories = true
+showTags = true
+showCategoriesInSecondaryColor = false
+showAuthorsBadges = false
+showWordCount = true
+showZenMode = false
+heroStyle = "basic"
+showAuthorBottom = "true¨"
+
+[list]
+showHero = false
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showSummary = true
+showViews = false
+showLikes = false
+showTableOfContents = true
+showCards = true
+orderByWeight = false
+groupByYear = true
+cardView = false
+cardViewScreenWidth = false
+constrainItemsWidth = false
+
+[sitemap]
+excludedKinds = [ "taxonomy", "term" ]
+
+[taxonomy]
+showTermCount = true
+showHero = false
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = false
+cardView = false
+
+[term]
+showHero = false
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = true
+groupByYear = false
+cardView = false
+cardViewScreenWidth = false

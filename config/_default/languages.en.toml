@@ -1,0 +1,28 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Portfolio"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "portfolio images"
+
+[[params.author.links]]
+email = "nicolainoah@gmail.com"
+
+[[params.author.links]]
+github = "https://github.com/NicolaiFaellesskov"
+
+[[params.author.links]]
+soundcloud = "https://soundcloud.com/nicolai-faellesskov"
+
+["params.author"]
+name = "Nicolai Fællesskov"
+email = "Nicolainoah@gmail.com"
+headline = "Welcome"
+image = "229279654.png"
+bio = "I'm new to coding and currently studying Datamatiker (Computer Science AP Degree) at CPH Business. I'm learning programming and working on building my skills in areas such as Java, databases, web development, and software development."
