@@ -1,3 +1,4 @@
 baseURL = "https://nicolaifaellesskov.github.io/portfolio/"
-locale = 'en-us'
-title = 'My New Hugo Project'
+locale = "en-us"
+title = "Nicolai's Portfolio"
+theme = "blowfish"
