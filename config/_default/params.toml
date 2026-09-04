@@ -53,7 +53,7 @@ cardView = false
 cardViewScreenWidth = false
 layoutBackgroundBlur = true
 disableHeroImageFilter = true
-homepageImage = "tylers-head-in-5-years-v0-8j3euqv0i2a01.webp"
+homepageImage = ""
 
 [article]
 showDate = true
